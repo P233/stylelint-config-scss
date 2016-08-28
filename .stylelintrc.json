@@ -1,0 +1,32 @@
+{
+  "extends": "stylelint-config-standard",
+  "rules": {
+    "color-named": "never",
+    "font-family-name-quotes": "always-where-recommended",
+    "font-weight-notation": ["numeric", {
+      "ignore": ["relative"]
+    }],
+    "function-url-quotes": "always",
+    "number-leading-zero": "never",
+    "string-quotes": "double",
+    "value-keyword-case": "lower",
+    "value-no-vendor-prefix": true,
+    "property-no-unknown": true,
+    "property-no-vendor-prefix": true,
+    "declaration-property-unit-whitelist": {
+      "/^animation/": ["s"]
+    },
+    "declaration-block-no-duplicate-properties": true,
+    "declaration-block-no-ignored-properties": true,
+    "selector-attribute-quotes": "always",
+    "selector-max-compound-selectors": 3,
+    "selector-no-id": true,
+    "selector-no-qualifying-type": true,
+    "selector-no-vendor-prefix": true,
+    "stylelint-disable-reason": "always-before",
+    "max-empty-lines": 2,
+    "max-line-length": 100,
+    "max-nesting-depth": 3,
+    "no-duplicate-selectors": true
+  }
+}
