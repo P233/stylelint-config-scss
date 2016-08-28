@@ -23,12 +23,10 @@
     "string-quotes": "double",
     "value-keyword-case": "lower",
     "value-no-vendor-prefix": true,
-    "property-no-unknown": true,
     "property-no-vendor-prefix": true,
     "declaration-property-unit-whitelist": {
       "/^animation/": ["s"]
     },
-    "declaration-block-no-duplicate-properties": true,
     "declaration-block-no-ignored-properties": true,
     "selector-attribute-quotes": "always",
     "selector-max-compound-selectors": 3,
