@@ -25,7 +25,7 @@
     "value-no-vendor-prefix": true,
     "property-no-vendor-prefix": true,
     "declaration-property-unit-whitelist": {
-      "/^animation/": ["s"]
+      "/^(transition|animation)/": ["s"]
     },
     "declaration-block-no-ignored-properties": true,
     "selector-attribute-quotes": "always",
