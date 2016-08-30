@@ -3,4 +3,29 @@
  *
  * Version: 0.0.1
  * --------------
+ *
+ * Notice:
+ * -------
+ *   1. Rules with symbol ⭕ are new added or modified in stylelint-config-SCSS.
+ *   2. Other rules are inherited from the stylelint-config-standard settings.
+ *
  */
+
+
+// Variables
+// ===============================================================================================
+
+// Single-line Variable Declaration
+//           ⬇1           ⬇2           ⬇3
+$box-shadow-1: 0 0 1px #fff, 0 0 2px #000;
+// 1. There must always be no space before the colon and one space after it.                    ⭕
+// 2. There must always be no space before the commas and one space after it.                   ⭕
+// 3. There must always be no space before the semicolon and a newline after it.                ⭕
+
+// Multi-line Variable Declaration
+$box-shadow-2:
+  0 0 1px #fff,
+  0 0 2px #000;
+// 1. There must always be no space before the colon and a newline after it.                    ⭕
+// 2. There must always be no space before the commas and a newline after it.                   ⭕
+// 3. There must always be no space before the semicolon and a newline after it.                ⭕
