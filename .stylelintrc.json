@@ -35,7 +35,7 @@
     "selector-no-vendor-prefix": true,
     "stylelint-disable-reason": "always-before",
     "max-empty-lines": 2,
-    "max-line-length": 100,
+    "max-line-length": 80,
     "max-nesting-depth": 3,
     "no-duplicate-selectors": true,
     "declaration-block-properties-order": [
