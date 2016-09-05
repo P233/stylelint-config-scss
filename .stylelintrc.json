@@ -32,6 +32,7 @@
     "selector-max-compound-selectors": 3,
     "selector-no-id": true,
     "selector-no-qualifying-type": true,
+    "selector-no-universal": true,
     "selector-no-vendor-prefix": true,
     "stylelint-disable-reason": "always-after",
     "max-empty-lines": 2,
