@@ -12,20 +12,21 @@
  */
 
 
-// Variables
-// ===============================================================================================
+// Variable Declaration
+// ===========================================================================
 
-// Single-line Variable Declaration
+// SINGLE-LINE
 //           ⬇1           ⬇2           ⬇3
 $box-shadow-1: 0 0 1px #fff, 0 0 2px #000;
-// 1. There must always be no space before the colon and one space after it.                    ⭕
-// 2. There must always be no space before the commas and one space after it.                   ⭕
-// 3. There must always be no space before the semicolon and a newline after it.                ⭕
+// 1. No space before the colon and one space after it.                      ⭕
+// 2. No space before the comma and one space after it.                      ⭕
+// 3. No space before the semicolon and a newline after it.                  ⭕
 
-// Multi-line Variable Declaration
+// MULTI-LINE
+//           ⬇1
 $box-shadow-2:
-  0 0 1px #fff,
-  0 0 2px #000;
-// 1. There must always be no space before the colon and a newline after it.                    ⭕
-// 2. There must always be no space before the commas and a newline after it.                   ⭕
-// 3. There must always be no space before the semicolon and a newline after it.                ⭕
+  0 0 1px #fff, // ⬅2
+  0 0 2px #000; // ⬅3
+// 1. No space before the colon and a newline after it.                      ⭕
+// 2. No space before the comma and a newline after it.                      ⭕
+// 3. No space before the semicolon and a newline after it.                  ⭕
