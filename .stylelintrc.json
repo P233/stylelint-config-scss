@@ -4,7 +4,6 @@
     "stylelint-scss"
   ],
   "rules": {
-    "scss/at-extend-no-missing-placeholder": true,
     "scss/at-import-no-partial-leading-underscore": true,
     "scss/dollar-variable-colon-newline-after": "always-multi-line",
     "scss/dollar-variable-colon-space-after": "always-single-line",
@@ -34,6 +33,7 @@
     "selector-no-qualifying-type": true,
     "selector-no-universal": true,
     "selector-no-vendor-prefix": true,
+    "at-rule-blacklist": ["extend"],
     "stylelint-disable-reason": "always-after",
     "max-empty-lines": 2,
     "max-line-length": 80,
