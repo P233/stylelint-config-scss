@@ -3,7 +3,7 @@ This is a personal stylelint config for SCSS syntax. If you'd like to discuss an
 ## Usage
 
 ``` shell
-npm install stylelint-config-standard stylelint-scss --save-dev`
+npm install stylelint-config-standard stylelint-scss --save-dev
 ```
 
 ``` shell
