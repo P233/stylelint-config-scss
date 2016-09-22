@@ -27,12 +27,23 @@
       "/^(transition|animation)/": ["s"]
     },
     "declaration-block-no-ignored-properties": true,
+    "block-closing-brace-newline-after": ["always", {
+      "ignoreAtRules": ["if", "else"]
+    }],
     "selector-attribute-quotes": "always",
     "selector-max-compound-selectors": 3,
     "selector-no-id": true,
     "selector-no-qualifying-type": true,
     "selector-no-universal": true,
     "selector-no-vendor-prefix": true,
+    "at-rule-empty-line-before": ["always", {
+      "except": [
+        "blockless-after-same-name-blockless",
+        "first-nested"
+      ],
+      "ignore": ["after-comment"],
+      "ignoreAtRules": ["else"]
+    }],
     "at-rule-blacklist": ["extend"],
     "stylelint-disable-reason": "always-after",
     "max-empty-lines": 2,
