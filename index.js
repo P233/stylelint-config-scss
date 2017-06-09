@@ -1,29 +1,66 @@
-{
-  "postcss-sorting": {
-    "rule-nested-empty-line-before": [ "always-multi-line", {
-      "except": ["first-nested"],
-      "ignore": ["after-comment"]
-    }],
-    "at-rule-nested-empty-line-before": [ true, {
-      "except": ["blockless-after-same-name-blockless", "first-nested"],
+module.exports = {
+  "extends": "stylelint-config-standard",
+  "plugins": [
+    "stylelint-order",
+    "stylelint-scss"
+  ],
+  "rules": {
+    // override stylelint-config-standard rules
+    "at-rule-empty-line-before": [ "always", {
+      "except": [
+        "blockless-after-same-name-blockless",
+        "first-nested"
+      ],
       "ignore": ["after-comment"],
       "ignoreAtRules": ["else"]
     }],
-    "declaration-empty-line-before": [ true, {
-      "except": ["after-comment", "after-declaration", "first-nested"]
+    "block-closing-brace-newline-after": [ "always", {
+      "ignoreAtRules": ["if", "else"]
     }],
-    "custom-property-empty-line-before": [ true, {
-      "except": ["after-custom-property", "first-nested"],
-      "ignore": ["after-comment"]
+
+    // new added rules
+    "color-named": "never",
+    "font-family-name-quotes": "always-where-recommended",
+    "font-weight-notation": "numeric",
+    "function-url-quotes": "always",
+    "string-quotes": "single",
+    "value-keyword-case": "lower",
+    "value-no-vendor-prefix": true,
+    "property-no-vendor-prefix": true,
+    "declaration-property-unit-whitelist": {
+      "/^(transition|animation)/": ["s"]
+    },
+    "selector-attribute-quotes": "always",
+    "selector-max-compound-selectors": 3,
+    "selector-no-id": true,
+    "selector-no-qualifying-type": true,
+    "selector-no-universal": true,
+    "selector-no-vendor-prefix": true,
+    "max-empty-lines": 2,
+    "max-nesting-depth": 3,
+
+    // scss syntax rules
+    "scss/at-else-empty-line-before": "never",
+    "scss/at-extend-no-missing-placeholder": true,
+    "scss/at-import-no-partial-leading-underscore": true,
+    "scss/dollar-variable-colon-newline-after": "always-multi-line",
+    "scss/dollar-variable-colon-space-after": "always-single-line",
+    "scss/dollar-variable-colon-space-before": "never",
+    "scss/dollar-variable-empty-line-before": [ "always", {
+      "except": ["first-nested", "after-comment", "after-dollar-variable"]
     }],
-    "dollar-variable-empty-line-before": [ true, {
-      "except": ["after-dollar-variable", "first-nested"],
-      "ignore": ["after-comment"]
+    "scss/dollar-variable-no-missing-interpolation": true,
+    "scss/double-slash-comment-empty-line-before": [ "always", {
+      "except": ["first-nested"],
+      "ignore": ["between-comments", "stylelint-commands"]
     }],
-    "comment-empty-line-before": [ true, {
-      "except": ["first-nested"]
-    }],
-    "order": [
+    "scss/double-slash-comment-whitespace-inside": "always",
+    "scss/declaration-nested-properties": "never",
+    "scss/operator-no-unspaced": true,
+    "scss/selector-no-redundant-nesting-selector": true,
+
+    // order rules
+    "order/order": [
       "custom-properties",
       "dollar-variables",
       {
@@ -42,9 +79,10 @@
         "name": "media"
       }
     ],
-    "properties-order": [
+
+    // CSScomb properties order
+    "order/properties-order": [
       {
-        "emptyLineBefore": false,
         "properties": [
           "font",
           "font-family",
@@ -63,7 +101,6 @@
         ]
       },
       {
-        "emptyLineBefore": false,
         "properties": [
           "position",
           "z-index",
@@ -74,7 +111,6 @@
         ]
       },
       {
-        "emptyLineBefore": false,
         "properties": [
           "display",
           "visibility",
@@ -139,7 +175,6 @@
         ]
       },
       {
-        "emptyLineBefore": false,
         "properties": [
           "-webkit-box-sizing",
           "-moz-box-sizing",
@@ -163,7 +198,6 @@
         ]
       },
       {
-        "emptyLineBefore": false,
         "properties": [
           "table-layout",
           "empty-cells",
@@ -177,7 +211,6 @@
         ]
       },
       {
-        "emptyLineBefore": false,
         "properties": [
           "content",
           "quotes",
@@ -308,7 +341,6 @@
         ]
       },
       {
-        "emptyLineBefore": false,
         "properties": [
           "opacity",
           "filter:progid:DXImageTransform.Microsoft.Alpha(Opacity",
@@ -408,6 +440,5 @@
         ]
       }
     ]
-  },
-  "unspecified-properties-position": "bottomAlphabetical"
-}
+  }
+};

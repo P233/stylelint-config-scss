@@ -2,9 +2,14 @@
   "name": "stylelint-config-scss",
   "version": "0.0.1",
   "description": "Stylelint configs for SCSS syntax.",
+  "keywords": [
+    "stylelint",
+    "stylelint-config",
+    "scss"
+  ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/P233/stylelint-config-SCSS.git"
+    "url": "https://github.com/P233/stylelint-config-SCSS.git"
   },
   "author": "Peiwen Lu",
   "license": "MIT",
@@ -13,9 +18,8 @@
   },
   "homepage": "https://github.com/P233/stylelint-config-SCSS#readme",
   "devDependencies": {
-    "gulp": "^3.9.1",
-    "gulp-stylelint": "^3.1.0",
-    "stylelint-config-standard": "^13.0.0",
-    "stylelint-scss": "^1.3.4"
+    "stylelint-config-standard": "^16.0.0",
+    "stylelint-order": "^0.4.4",
+    "stylelint-scss": "^1.4.4"
   }
 }
