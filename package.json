@@ -9,7 +9,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/P233/stylelint-config-SCSS.git"
+    "url": "git+https://github.com/P233/stylelint-config-SCSS.git"
   },
   "author": "Peiwen Lu",
   "license": "MIT",
@@ -17,7 +17,7 @@
     "url": "https://github.com/P233/stylelint-config-SCSS/issues"
   },
   "homepage": "https://github.com/P233/stylelint-config-SCSS#readme",
-  "devDependencies": {
+  "dependencies": {
     "stylelint-config-standard": "^16.0.0",
     "stylelint-order": "^0.4.4",
     "stylelint-scss": "^1.4.4"
