@@ -10,7 +10,8 @@
       "ignoreAtRules": ["else"]
     }],
     "declaration-empty-line-before": [ true, {
-      "except": ["after-comment", "after-declaration", "first-nested"]
+      "except": ["after-declaration", "first-nested"],
+      "ignore": ["after-comment"]
     }],
     "custom-property-empty-line-before": [ true, {
       "except": ["after-custom-property", "first-nested"],
