@@ -1,7 +1,5 @@
 // Source Link:
 // https://github.com/twbs/bootstrap/blob/v4-dev/build/.stylelintrc
-// Updated:
-// 11 Dec 2017
 
 module.exports = {
   plugins: ["stylelint-order"],

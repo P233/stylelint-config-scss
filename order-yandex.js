@@ -1,7 +1,5 @@
 // Source Link:
 // https://github.com/csscomb/csscomb.js/blob/dev/config/yandex.json
-// Updated:
-// 11 Dec 2017
 
 module.exports = {
   plugins: ["stylelint-order"],
