@@ -17,6 +17,9 @@ module.exports = {
     "block-closing-brace-newline-after": [ "always", {
       "ignoreAtRules": ["if", "else"]
     }],
+    "at-rule-no-unknown": [ true, {
+      "ignoreAtRules": ["extend", "at-root", "debug", "warn", "error", "if", "for", "each", "while", "mixin", "include", "function", "return"]
+    }],
 
     // new added rules
     "color-named": "never",
