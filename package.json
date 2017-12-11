@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/P233/stylelint-config-SCSS#readme",
   "dependencies": {
+    "stylelint-config-recommended-scss": "^3.0.0",
     "stylelint-config-standard": "^18.0.0",
     "stylelint-order": "^0.8.0",
     "stylelint-scss": "^2.2.0"
