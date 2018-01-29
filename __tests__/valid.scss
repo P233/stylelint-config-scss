@@ -1,0 +1,41 @@
+@import 'header';
+
+// Sass comment
+$display-block: false;
+$display-inline-block: true;
+
+@mixin mixin-1($args...) {
+  box-shadow: $args;
+}
+
+@mixin mixin-2 {
+  box-shadow: none;
+}
+
+@function function-name($arg) {
+  @return $arg;
+}
+
+.selector {
+  --width: 20px;
+
+  $variable: var(--width);
+
+  @include mixin-1($display-block);
+  @include mixin-2;
+
+  margin: 20px * 2;
+  color: red;
+
+  @if ($display-block) {
+    display: block;
+  } @else if ($display-inline-block) {
+    display: block;
+  } @else {
+    display: none;
+  }
+
+  &::after {
+    content: function-end ();
+  }
+}
