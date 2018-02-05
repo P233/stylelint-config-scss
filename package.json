@@ -33,6 +33,11 @@
   },
   "devDependencies": {
     "jest": "^22.1.4",
+    "pre-commit": "^1.2.2",
     "stylelint": "^8.4.0"
+  },
+  "pre-commit": {
+    "run": "test",
+    "silent": true
   }
 }
