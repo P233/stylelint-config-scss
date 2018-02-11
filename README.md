@@ -21,7 +21,7 @@ npm install P233/stylelint-config-SCSS --save-dev
 
 then add the following code to your `.stylelintrc` file
 
-``` json
+```
 {
   "extends": [
     "stylelint-config-scss",
