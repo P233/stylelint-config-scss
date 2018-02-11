@@ -36,6 +36,6 @@ $display-inline-block: true;
   }
 
   &::after {
-    content: function-end ();
+    content: function-end();
   }
 }
