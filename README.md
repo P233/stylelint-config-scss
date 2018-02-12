@@ -4,33 +4,33 @@ A personal stylelint config for SCSS syntax based on [stylelint-config-standard]
 
 ## Default Config
 
-### `stylelint-config-scss`
+`stylelint-config-scss`
 
 Add SCSS syntax rules to respect the [stylelint-config-standard](https://github.com/stylelint/stylelint-config-standard) code style scheme.
 
 ## Optional Configs
 
-### `stylelint-config-scss/order-bootstrap`
+`stylelint-config-scss/order-bootstrap`
 
 Keep properties in [bootstrap order](https://github.com/twbs/bootstrap/blob/v4-dev/.stylelintrc).
 
-### `stylelint-config-scss/order-csscomb`
+`stylelint-config-scss/order-csscomb`
 
 Keep properties in [csscomb order](https://github.com/csscomb/csscomb.js/blob/dev/config/csscomb.json).
 
-### `stylelint-config-scss/order-yandex`
+`stylelint-config-scss/order-yandex`
 
 Keep properties in [yandex order](https://github.com/csscomb/csscomb.js/blob/dev/config/yandex.json).
 
-### `stylelint-config-scss/order-zen`
+`stylelint-config-scss/order-zen`
 
 Keep properties in [zen order](https://github.com/csscomb/csscomb.js/blob/dev/config/zen.json).
 
-### `stylelint-config-scss/no-prefixes`
+`stylelint-config-scss/no-prefixes`
 
 Disallow vendor prefixes for properties, values, at-rules, etc.
 
-### `stylelint-config-scss/strict`
+`stylelint-config-scss/strict`
 
 My opinionated configs.
 
