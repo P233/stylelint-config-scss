@@ -1,38 +1,36 @@
 # stylelint-config-SCSS
 
-A personal stylelint config for SCSS syntax based on [stylelint-config-standard](https://github.com/stylelint/stylelint-config-standard), [stylelint-scss plugin](https://github.com/kristerkari/stylelint-scss), [stylelint-config-recommended-scss](https://github.com/kristerkari/stylelint-config-recommended-scss) and [stylelint-order](https://github.com/hudochenkov/stylelint-order).
+A stylelint config for SCSS syntax based on [stylelint-config-standard](https://github.com/stylelint/stylelint-config-standard), [stylelint-config-recommended-scss](https://github.com/kristerkari/stylelint-config-recommended-scss), [stylelint-scss plugin](https://github.com/kristerkari/stylelint-scss) and [stylelint-order plugin](https://github.com/hudochenkov/stylelint-order).
 
-## Default Config
+## Configs
 
-• `stylelint-config-scss`
+* `stylelint-config-scss`
 
-Add SCSS syntax rules to respect the [stylelint-config-standard](https://github.com/stylelint/stylelint-config-standard) code style scheme.
+  Add SCSS syntax rules to respect the [stylelint-config-standard](https://github.com/stylelint/stylelint-config-standard) code style scheme.
 
-## Optional Configs
+* `stylelint-config-scss/order-bootstrap`
 
-• `stylelint-config-scss/order-bootstrap`
+  [Optional] Keep properties in [bootstrap order](https://github.com/twbs/bootstrap/blob/v4-dev/.stylelintrc).
+  
+* `stylelint-config-scss/order-csscomb`
 
-Keep properties in [bootstrap order](https://github.com/twbs/bootstrap/blob/v4-dev/.stylelintrc).
+  [Optional] Keep properties in [csscomb order](https://github.com/csscomb/csscomb.js/blob/dev/config/csscomb.json).
 
-• `stylelint-config-scss/order-csscomb`
+* `stylelint-config-scss/order-yandex`
 
-Keep properties in [csscomb order](https://github.com/csscomb/csscomb.js/blob/dev/config/csscomb.json).
+  [Optional] Keep properties in [yandex order](https://github.com/csscomb/csscomb.js/blob/dev/config/yandex.json).
 
-• `stylelint-config-scss/order-yandex`
+* `stylelint-config-scss/order-zen`
 
-Keep properties in [yandex order](https://github.com/csscomb/csscomb.js/blob/dev/config/yandex.json).
+  [Optional] Keep properties in [zen order](https://github.com/csscomb/csscomb.js/blob/dev/config/zen.json).
 
-• `stylelint-config-scss/order-zen`
+* `stylelint-config-scss/no-prefixes`
 
-Keep properties in [zen order](https://github.com/csscomb/csscomb.js/blob/dev/config/zen.json).
+  [Optional] Disallow vendor prefixes for properties, values, at-rules, etc.
 
-• `stylelint-config-scss/no-prefixes`
+* `stylelint-config-scss/strict`
 
-Disallow vendor prefixes for properties, values, at-rules, etc.
-
-• `stylelint-config-scss/strict`
-
-My opinionated configs.
+  [Optional] A personal opinionated configs.
 
 ## Usage
 
