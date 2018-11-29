@@ -26,15 +26,15 @@
     "verbose": true
   },
   "dependencies": {
-    "stylelint-config-recommended-scss": "^3.0.0",
-    "stylelint-config-standard": "^18.0.0",
-    "stylelint-order": "^0.8.0",
-    "stylelint-scss": "^2.3.0"
+    "stylelint-config-recommended-scss": "^3.2.0",
+    "stylelint-config-standard": "^18.2.0",
+    "stylelint-order": "^2.0.0",
+    "stylelint-scss": "^3.4.0"
   },
   "devDependencies": {
-    "jest": "^22.1.4",
+    "jest": "^23.6.0",
     "pre-commit": "^1.2.2",
-    "stylelint": "^8.4.0"
+    "stylelint": "^9.9.0"
   },
   "pre-commit": {
     "run": "test",
