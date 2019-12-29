@@ -1,20 +1,14 @@
 module.exports = {
+  plugins: ["stylelint-order"],
   rules: {
-    "color-named": "never",
-    "font-family-name-quotes": "always-where-recommended",
-    "font-weight-notation": ["numeric", { ignore: "relative" }],
-    "function-url-quotes": "always",
-    "string-quotes": "double",
-    "value-keyword-case": "lower",
-    "declaration-property-unit-whitelist": {
-      "/^(transition|animation)/": ["s"]
-    },
-    "selector-attribute-quotes": "always",
-    "selector-max-compound-selectors": 3,
-    "selector-max-id": 0,
-    "selector-no-qualifying-type": true,
-    "selector-max-universal": 1,
-    "max-empty-lines": 2,
-    "max-nesting-depth": 3
+    "scss/at-extend-no-missing-placeholder": true,
+    "scss/at-import-no-partial-leading-underscore": true,
+    "scss/at-mixin-argumentless-call-parentheses": "never",
+    "scss/dollar-variable-no-missing-interpolation": true,
+    "scss/declaration-nested-properties": "never",
+    "scss/selector-no-redundant-nesting-selector": true,
+
+    // order rules
+    "order/order": ["custom-properties", "dollar-variables", "declarations"]
   }
 };
