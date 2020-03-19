@@ -26,6 +26,7 @@ module.exports = {
     "scss/at-function-parentheses-space-before": "never",
     "scss/at-if-closing-brace-newline-after": "always-last-in-chain",
     "scss/at-if-closing-brace-space-after": "always-intermediate",
+    "scss/at-mixin-argumentless-call-parentheses": "never",
     "scss/at-mixin-parentheses-space-before": "never",
     "scss/dollar-variable-colon-newline-after": "always-multi-line",
     "scss/dollar-variable-colon-space-after": "always-single-line",
@@ -37,6 +38,7 @@ module.exports = {
         ignore: ["after-comment", "inside-single-line-block"]
       }
     ],
+    "scss/dollar-variable-no-missing-interpolation": true,
     "scss/double-slash-comment-empty-line-before": [
       "always",
       {
@@ -47,6 +49,7 @@ module.exports = {
     "scss/double-slash-comment-whitespace-inside": "always",
     "scss/operator-no-newline-after": true,
     "scss/operator-no-newline-before": true,
-    "scss/operator-no-unspaced": true
+    "scss/operator-no-unspaced": true,
+    "scss/selector-no-redundant-nesting-selector": true
   }
 };
