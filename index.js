@@ -1,6 +1,6 @@
 module.exports = {
   extends: ["stylelint-config-standard", "stylelint-config-recommended-scss"],
-  plugins: ["stylelint-order", "stylelint-scss"],
+  plugins: ["stylelint-scss"],
   rules: {
     // override stylelint-config-standard rules
     "at-rule-empty-line-before": [
@@ -23,11 +23,9 @@ module.exports = {
     "scss/at-else-closing-brace-space-after": "always-intermediate",
     "scss/at-else-empty-line-before": "never",
     "scss/at-else-if-parentheses-space-before": "always",
-    "scss/at-extend-no-missing-placeholder": true,
     "scss/at-function-parentheses-space-before": "never",
     "scss/at-if-closing-brace-newline-after": "always-last-in-chain",
     "scss/at-if-closing-brace-space-after": "always-intermediate",
-    "scss/at-import-no-partial-leading-underscore": true,
     "scss/at-mixin-argumentless-call-parentheses": "never",
     "scss/at-mixin-parentheses-space-before": "never",
     "scss/dollar-variable-colon-newline-after": "always-multi-line",
@@ -49,13 +47,9 @@ module.exports = {
       }
     ],
     "scss/double-slash-comment-whitespace-inside": "always",
-    "scss/declaration-nested-properties": "never",
     "scss/operator-no-newline-after": true,
     "scss/operator-no-newline-before": true,
     "scss/operator-no-unspaced": true,
-    "scss/selector-no-redundant-nesting-selector": true,
-
-    // order rules
-    "order/order": ["custom-properties", "dollar-variables", "declarations"]
+    "scss/selector-no-redundant-nesting-selector": true
   }
 };
