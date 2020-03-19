@@ -1,7 +1,8 @@
 {
-  "name": "stylelint-config-scss",
+  "name": "@p233/stylelint-config-scss",
   "version": "2.0.0",
   "description": "Stylelint configs for SCSS syntax.",
+  "main": "index.js",
   "keywords": [
     "stylelint",
     "stylelint-config",
