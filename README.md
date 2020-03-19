@@ -30,9 +30,9 @@ Select the configurations for your needs and add them to your project `.stylelin
 {
   "extends": [
     "stylelint-config-scss",
-    "stylelint-config-scss/order-bootstrap",  // optional
-    "stylelint-config-scss/no-prefixes"       // optional
-    "stylelint-config-scss/strict"            // optional
+    "stylelint-config-scss/order-bootstrap", // optional
+    "stylelint-config-scss/no-prefixes", // optional
+    "stylelint-config-scss/strict" // optional
   ]
 }
 ```
