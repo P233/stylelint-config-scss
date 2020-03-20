@@ -15,24 +15,24 @@ An opinionated stylelint configurations set.
 ## Installation
 
 ```
-npm install P233/stylelint-config-scss --save-dev
+npm install @p233/stylelint-config-scss --save-dev
 ```
 
 ```
-yarn add P233/stylelint-config-scss -dev
+yarn add @p233/stylelint-config-scss -dev
 ```
 
 ## Usage
 
 Select the configurations for your needs and add them to your project `.stylelintrc` file:
 
-```json
+```
 {
   "extends": [
-    "stylelint-config-scss",
-    "stylelint-config-scss/order-bootstrap", // optional
-    "stylelint-config-scss/no-prefixes", // optional
-    "stylelint-config-scss/strict" // optional
+    "@p233/stylelint-config-scss",
+    "@p233/stylelint-config-scss/order-bootstrap", // optional
+    "@p233/stylelint-config-scss/no-prefixes", // optional
+    "@p233/stylelint-config-scss/strict" // optional
   ]
 }
 ```
