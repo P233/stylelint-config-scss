@@ -10,7 +10,6 @@ An opinionated stylelint configurations set.
 - [`stylelint-config-scss/order-yandex`](./order-yandex.js): Specify properties order in [yandex order](https://github.com/csscomb/csscomb.js/blob/dev/config/yandex.json).
 - [`stylelint-config-scss/order-zen`](./order-zen.js): Specify properties order in [zen order](https://github.com/csscomb/csscomb.js/blob/dev/config/zen.json).
 - [`stylelint-config-scss/no-prefixes`](./no-prefixes.js): Disallow vendor prefixes for properties, values, at-rules, etc.
-- [`stylelint-config-scss/strict`](./strict.js): A strong opinionated configuration.
 
 ## Installation
 
@@ -32,7 +31,13 @@ Select the configurations for your needs and add them to your project `.stylelin
     "@p233/stylelint-config-scss",
     "@p233/stylelint-config-scss/order-bootstrap", // optional
     "@p233/stylelint-config-scss/no-prefixes", // optional
-    "@p233/stylelint-config-scss/strict" // optional
   ]
 }
 ```
+
+## Changelog
+
+### Version 3.0.0
+
+1. Remove `@p233/stylelint-config-scss/strict` rules
+2. Require stylelint 14 and above
