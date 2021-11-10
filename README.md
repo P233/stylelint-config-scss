@@ -18,7 +18,7 @@ npm install @p233/stylelint-config-scss --save-dev
 ```
 
 ```
-yarn add @p233/stylelint-config-scss -dev
+yarn add @p233/stylelint-config-scss --dev
 ```
 
 ## Usage
