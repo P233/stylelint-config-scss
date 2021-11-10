@@ -1,6 +1,6 @@
 {
   "name": "@p233/stylelint-config-scss",
-  "version": "2.0.1",
+  "version": "3.0.0",
   "description": "Stylelint configs for SCSS syntax.",
   "main": "index.js",
   "keywords": [
@@ -20,29 +20,25 @@
   "homepage": "https://github.com/P233/stylelint-config-SCSS#readme",
   "scripts": {
     "test": "jest",
-    "watch": "jest --watch"
+    "watch": "jest --watch",
+    "prepare": "husky install"
   },
   "jest": {
     "testEnvironment": "node",
     "verbose": true
   },
   "dependencies": {
-    "stylelint-config-recommended-scss": "^4.2.0",
-    "stylelint-config-standard": "^20.0.0",
-    "stylelint-order": "^4.0.0",
-    "stylelint-scss": "^3.15.0"
+    "stylelint-config-recommended-scss": "^5.0.1",
+    "stylelint-config-standard": "^23.0.0",
+    "stylelint-order": "^5.0.0",
+    "stylelint-scss": "^4.0.0"
   },
   "devDependencies": {
-    "husky": "^4.2.3",
-    "jest": "^25.1.0",
-    "lint-staged": "^10.0.8",
-    "prettier": "^1.19.1",
-    "stylelint": "^13.2.1"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm test && lint-staged"
-    }
+    "husky": "^7.0.4",
+    "jest": "^27.3.1",
+    "lint-staged": "^11.2.6",
+    "prettier": "^2.4.1",
+    "stylelint": "^14.0.1"
   },
   "lint-staged": {
     "*.{js,json,md}": "prettier --write"
