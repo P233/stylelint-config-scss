@@ -38,7 +38,6 @@ module.exports = {
         ignore: ["after-comment", "inside-single-line-block"]
       }
     ],
-    "scss/dollar-variable-no-missing-interpolation": true,
     "scss/double-slash-comment-empty-line-before": [
       "always",
       {
@@ -47,9 +46,6 @@ module.exports = {
       }
     ],
     "scss/double-slash-comment-whitespace-inside": "always",
-    "scss/operator-no-newline-after": true,
-    "scss/operator-no-newline-before": true,
-    "scss/operator-no-unspaced": true,
     "scss/selector-no-redundant-nesting-selector": true
   }
 };
