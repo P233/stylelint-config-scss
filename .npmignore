@@ -1,3 +1,4 @@
+.log
 .husky
 .prettierrc.json
 __tests__
