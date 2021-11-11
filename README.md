@@ -9,6 +9,7 @@ An opinionated stylelint configurations set.
 - [`stylelint-config-scss/order-csscomb`](./order-csscomb.js): Specify properties order in [csscomb order](https://github.com/csscomb/csscomb.js/blob/dev/config/csscomb.json).
 - [`stylelint-config-scss/order-yandex`](./order-yandex.js): Specify properties order in [yandex order](https://github.com/csscomb/csscomb.js/blob/dev/config/yandex.json).
 - [`stylelint-config-scss/order-zen`](./order-zen.js): Specify properties order in [zen order](https://github.com/csscomb/csscomb.js/blob/dev/config/zen.json).
+- [`stylelint-config-scss/css-modules`](./css-modules.js): A fork of [stylelint-config-css-modules](https://github.com/pascalduez/stylelint-config-css-modules)
 
 ## Installation
 
@@ -29,6 +30,7 @@ Select the configurations for your needs and add them to your project `.stylelin
   "extends": [
     "@p233/stylelint-config-scss",
     "@p233/stylelint-config-scss/order-bootstrap", // optional
+    "@p233/stylelint-config-scss/css-modules",     // optional
   ]
 }
 ```
