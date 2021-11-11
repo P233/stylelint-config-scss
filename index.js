@@ -1,8 +1,19 @@
+// Extended rules sources:
+
+// stylelint-config-recommended
+// https://github.com/stylelint/stylelint-config-recommended/blob/main/index.js
+
+// stylelint-config-standard
+// https://github.com/stylelint/stylelint-config-standard/blob/main/index.js
+
+// stylelint-config-recommended-scss
+// https://github.com/stylelint-scss/stylelint-config-recommended-scss/blob/master/index.js
+
 module.exports = {
   extends: ["stylelint-config-standard", "stylelint-config-recommended-scss"],
   plugins: ["stylelint-scss"],
   rules: {
-    // override stylelint-config-standard rules
+    // Override stylelint-config-standard rules for SCSS control directives
     "at-rule-empty-line-before": [
       "always",
       {
@@ -18,7 +29,7 @@ module.exports = {
       }
     ],
 
-    // scss syntax rules
+    // SCSS syntax rules
     "scss/at-else-closing-brace-newline-after": "always-last-in-chain",
     "scss/at-else-closing-brace-space-after": "always-intermediate",
     "scss/at-else-empty-line-before": "never",
