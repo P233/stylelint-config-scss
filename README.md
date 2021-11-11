@@ -35,7 +35,11 @@ Select the configurations for your needs and add them to your project `.stylelin
 
 ## Changelog
 
+### Version 3.0.2
+
+1. Remove `@p233/stylelint-config-scss/no-prefixes` rules
+
 ### Version 3.0.0
 
-1. Remove `@p233/stylelint-config-scss/strict` rules
-2. Require stylelint 14 and above
+1. Require stylelint 14 and above
+2. Remove `@p233/stylelint-config-scss/strict` rules
