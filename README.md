@@ -37,6 +37,10 @@ Select the configurations for your needs and add them to your project `.stylelin
 
 ## Changelog
 
+### Version 3.1.0
+
+1. Add `@p233/stylelint-config-scss/css-modules` rules
+
 ### Version 3.0.2
 
 1. Remove `@p233/stylelint-config-scss/no-prefixes` rules
@@ -45,3 +49,12 @@ Select the configurations for your needs and add them to your project `.stylelin
 
 1. Require stylelint 14 and above
 2. Remove `@p233/stylelint-config-scss/strict` rules
+
+## Credits
+
+- [stylelint-config-recommended](https://github.com/stylelint/stylelint-config-recommended)
+- [stylelint-config-standard](https://github.com/stylelint/stylelint-config-standard)
+- [stylelint-config-recommended-scss](https://github.com/stylelint-scss/stylelint-config-recommended-scss)
+- [stylelint-config-css-modules](https://github.com/pascalduez/stylelint-config-css-modules)
+- [stylelint-config-twbs-bootstrap](https://github.com/twbs/stylelint-config-twbs-bootstrap)
+- [csscomb.js](https://github.com/csscomb/csscomb.js)
