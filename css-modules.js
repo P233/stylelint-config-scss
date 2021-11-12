@@ -29,6 +29,12 @@ module.exports = {
       {
         ignoreAtRules: ["value"]
       }
+    ],
+    "value-keyword-case": [
+      "lower",
+      {
+        ignoreProperties: ["composes", "compose-with"]
+      }
     ]
   }
 };
