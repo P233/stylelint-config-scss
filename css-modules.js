@@ -35,6 +35,7 @@ module.exports = {
       {
         ignoreProperties: ["composes", "compose-with"]
       }
-    ]
+    ],
+    "selector-class-pattern": null
   }
 };
