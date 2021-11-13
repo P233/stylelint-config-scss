@@ -9,7 +9,7 @@ An opinionated stylelint configurations set.
 - [`stylelint-config-scss/order-csscomb`](./order-csscomb.js): Specify properties order in [csscomb order](https://github.com/csscomb/csscomb.js/blob/dev/config/csscomb.json).
 - [`stylelint-config-scss/order-yandex`](./order-yandex.js): Specify properties order in [yandex order](https://github.com/csscomb/csscomb.js/blob/dev/config/yandex.json).
 - [`stylelint-config-scss/order-zen`](./order-zen.js): Specify properties order in [zen order](https://github.com/csscomb/csscomb.js/blob/dev/config/zen.json).
-- [`stylelint-config-scss/css-modules`](./css-modules.js): A fork of [stylelint-config-css-modules](https://github.com/pascalduez/stylelint-config-css-modules)
+- [`stylelint-config-scss/css-modules`](./css-modules.js): A fork of [stylelint-config-css-modules](https://github.com/pascalduez/stylelint-config-css-modules) to balance css-modules rules in SCSS
 
 ## Installation
 
@@ -36,6 +36,13 @@ Select the configurations for your needs and add them to your project `.stylelin
 ```
 
 ## Changelog
+
+### Version 3.1.1
+
+1. Disable `selector-class-pattern` when using `css-modules`
+2. Disable `value-keyword-case` for `composes` and `compose-with` properties when using `css-modules`
+
+_Because you might use kebab-case / camelCase / PascalCase for selectors in CSS Modules._
 
 ### Version 3.1.0
 
