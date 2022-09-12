@@ -2,7 +2,7 @@
 
 // Sass comment
 $display-block: false;
-$display-inline-block: true;
+$display-inline-block: true !default;
 
 @mixin mixin-1($args...) {
   box-shadow: $args;

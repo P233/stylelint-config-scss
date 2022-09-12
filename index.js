@@ -28,6 +28,12 @@ module.exports = {
         ignoreAtRules: ["if", "else"]
       }
     ],
+    "annotation-no-unknown": [
+      true,
+      {
+        ignoreAnnotations: "default"
+      }
+    ],
 
     // SCSS syntax rules
     "scss/at-else-closing-brace-newline-after": "always-last-in-chain",
