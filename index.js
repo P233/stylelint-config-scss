@@ -10,7 +10,11 @@
 // https://github.com/stylelint-scss/stylelint-config-recommended-scss/blob/master/index.js
 
 module.exports = {
-  extends: ["stylelint-config-standard", "stylelint-config-recommended-scss"],
+  extends: [
+    "stylelint-config-standard",
+    "stylelint-config-recommended-scss",
+    "stylelint-config-recess-order"
+  ],
   plugins: ["stylelint-scss"],
   rules: {
     // Override stylelint-config-standard rules for SCSS control directives

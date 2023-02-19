@@ -5,10 +5,7 @@ An opinionated stylelint configurations set.
 ## Configuration options
 
 - [`stylelint-config-scss`](index.js): Add the basic SCSS lint rules to respect the [stylelint-config-standard](https://github.com/stylelint/stylelint-config-standard) code style scheme.
-- [`stylelint-config-scss/order-bootstrap`](./order-bootstrap.js): Specify properties order in [bootstrap order](https://github.com/twbs/bootstrap/blob/v4-dev/.stylelintrc).
-- [`stylelint-config-scss/order-csscomb`](./order-csscomb.js): Specify properties order in [csscomb order](https://github.com/csscomb/csscomb.js/blob/dev/config/csscomb.json).
-- [`stylelint-config-scss/order-yandex`](./order-yandex.js): Specify properties order in [yandex order](https://github.com/csscomb/csscomb.js/blob/dev/config/yandex.json).
-- [`stylelint-config-scss/order-zen`](./order-zen.js): Specify properties order in [zen order](https://github.com/csscomb/csscomb.js/blob/dev/config/zen.json).
+- [`stylelint-config-recess-order`](https://www.npmjs.com/package/stylelint-config-recess-order) A Stylelint config that sorts CSS properties the way Recess did and Bootstrap did/does.
 - [`stylelint-config-scss/css-modules`](./css-modules.js): A fork of [stylelint-config-css-modules](https://github.com/pascalduez/stylelint-config-css-modules) to balance css-modules rules in SCSS
 
 ## Installation
@@ -29,13 +26,16 @@ Select the configurations for your needs and add them to your project `.stylelin
 {
   "extends": [
     "@p233/stylelint-config-scss",
-    "@p233/stylelint-config-scss/order-bootstrap", // optional
-    "@p233/stylelint-config-scss/css-modules",     // optional
   ]
 }
 ```
 
 ## Changelog
+
+### Vesion 4.0.0
+
+1. Upgrade to fit stylelist 15
+2. Remove all order rules (`order-bootstrap`, `order-csscomb`, `order-yandex`, `order-zen`), and use [stylelint-config-recess-order](https://www.npmjs.com/package/stylelint-config-recess-order) instead.
 
 ### Version 3.1.1
 

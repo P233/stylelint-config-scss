@@ -28,9 +28,9 @@
     "verbose": true
   },
   "dependencies": {
+    "stylelint-config-recess-order": "^4.0.0",
     "stylelint-config-recommended-scss": "^9.0.1",
     "stylelint-config-standard": "^30.0.1",
-    "stylelint-order": "^6.0.2",
     "stylelint-scss": "^4.4.0"
   },
   "devDependencies": {

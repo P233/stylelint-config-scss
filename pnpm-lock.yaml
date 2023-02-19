@@ -7,15 +7,15 @@ specifiers:
   postcss: ^8.4.21
   prettier: ^2.8.4
   stylelint: ^15.1.0
+  stylelint-config-recess-order: ^4.0.0
   stylelint-config-recommended-scss: ^9.0.1
   stylelint-config-standard: ^30.0.1
-  stylelint-order: ^6.0.2
   stylelint-scss: ^4.4.0
 
 dependencies:
+  stylelint-config-recess-order: 4.0.0_stylelint@15.1.0
   stylelint-config-recommended-scss: 9.0.1_6kmz6pqyyc6yqevihcpt7hoegq
   stylelint-config-standard: 30.0.1_stylelint@15.1.0
-  stylelint-order: 6.0.2_stylelint@15.1.0
   stylelint-scss: 4.4.0_stylelint@15.1.0
 
 devDependencies:
@@ -2834,6 +2834,15 @@ packages:
 
   /style-search/0.1.0:
     resolution: {integrity: sha512-Dj1Okke1C3uKKwQcetra4jSuk0DqbzbYtXipzFlFMZtowbF1x7BKJwB9AayVMyFARvU8EDrZdcax4At/452cAg==}
+
+  /stylelint-config-recess-order/4.0.0_stylelint@15.1.0:
+    resolution: {integrity: sha512-sOb+OofMryBR91CbzgV2FavpONqiIeAE7cfrgyUHqePblWBKsYzoUuWThI5EjPRA7KKeovm6ykr7twWYLeafPQ==}
+    peerDependencies:
+      stylelint: '>=15'
+    dependencies:
+      stylelint: 15.1.0
+      stylelint-order: 6.0.2_stylelint@15.1.0
+    dev: false
 
   /stylelint-config-recommended-scss/9.0.1_6kmz6pqyyc6yqevihcpt7hoegq:
     resolution: {integrity: sha512-qAmz/TdrqslwiMTuLM3QXeISUkfEDUXGMfRBCHm/xrkCJNnQefv+mzG2mWTsWkqcVk8HAyUkug10dwAcYp2fCQ==}
