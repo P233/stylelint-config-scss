@@ -1,3 +1,5 @@
+"use strict";
+
 // Extended rules sources:
 
 // stylelint-config-recommended
