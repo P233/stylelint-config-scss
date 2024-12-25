@@ -31,7 +31,7 @@ module.exports = {
     "annotation-no-unknown": [
       true,
       {
-        ignoreAnnotations: "default"
+        ignoreAnnotations: ["default", "global", "optional"]
       }
     ],
 
